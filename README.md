@@ -3,34 +3,12 @@ nanobar
 
 Very very lightweight progress bars (~630 bytes gzipped). No jQuery needed.
 
-Compatibility: iE7+ and the rest of the world
+Compatibility: IE10+ and the rest of the world
+(Note: works at IE7+ without animations)
 
-## Demo
+## Original Demo
 
 See [nanobar.micronube.com](http://nanobar.micronube.com)
-
-## Installation
-
-Download and extract the last release from [here](https://github.com/jacoborus/nanobar/archive/master.zip) or install with package manager:
-
-[component(1)](http://component.io):
-
-```
-$ component install jacoborus/nanobar
-```
-
-[Bower](http://bower.io/):
-
-```
-$ bower install nanobar
-```
-
-[npm](https://www.npmjs.org/package/nanobar):
-
-```
-$ npm install nanobar
-```
-
 
 ## Usage
 
@@ -40,12 +18,6 @@ Link `nanobar.js` from your html file
 
 ```html
 <script src="path/to/nanobar.min.js"></script>
-```
-
-or require it with [Browserify](http://browserify.org/) or [Component](http://component.io):
-
-```js
-var Nanobar = require('path/to/nanobar');
 ```
 
 ### Generate progressbar
