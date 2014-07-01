@@ -15,6 +15,7 @@
 			<h1 id="nanobar">nanobar.js</h1>
 			<br>
 			<div class="general-buttons">
+				<button class="doc_go" onClick="nanobar.go(10)">nanobar.go(10)</button>
 				<button class="doc_go" onClick="nanobar.go(30)">nanobar.go(30)</button>
 				<button class="doc_go" onClick="nanobar.go(60)">nanobar.go(60)</button>
 				<button class="doc_go" onClick="nanobar.go(100)">nanobar.go(100)</button>
@@ -25,9 +26,8 @@
 			<p>© 2014 <a href="https://github.com/jacoborus">jacoborus</a> - <a href="https://raw.github.com/jacoborus/nanobar/master/LICENSE">MIT License</a></p>
 		</div>
 
-		<script src="build/build.js"></script>
+		<script src="nanobar.js"></script>
 		<script>
-		var Nanobar = require('Nanobar');
 			var nanobar = new Nanobar();
 			nanobar.go(50);
 		</script>
